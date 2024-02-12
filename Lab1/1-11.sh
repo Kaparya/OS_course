@@ -6,7 +6,6 @@ number_of_users="$1"
 if [[ "$1" == "--help" ]]; then
   echo "Input as first parameter number of users, then input username prefix"
   exit 0
-  number_of_users="$2"
 fi
 
 # Проверка, что первым параметром введено количество пользователей
